@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SoundDroid</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="placeholder">placeholder</string>
+    <string name="action_search">Search</string>
+    <string name="email_button">Share Song</string>
+    <string name="menu_link_item">Link</string>
+</resources>

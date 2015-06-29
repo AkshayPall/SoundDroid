@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_search"
+        android:title="@string/action_search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:icon="@drawable/ic_search"
+        android:orderInCategory="2"/>
+    <item
+        android:title="@string/menu_link_item"
+        android:id="@+id/soundcloud_url"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.widget.TextView"
+        android:orderInCategory="1"/>
+</menu>
